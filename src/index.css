@@ -17,13 +17,13 @@ img {
   max-width: 100%;
 }
 
+body {
+  overflow-x: hidden;
+  color: #fff;
+}
+
 
 /* Header ----------- */
-.container {
-  width: 100vw;
-  margin: 0;
-  padding: 0;
-}
 
 nav {
   width: 100vw;
@@ -59,4 +59,17 @@ nav {
 
 .navbar-nav {
   align-items: center;
+}
+
+/* Carousel ---------------------- */
+
+.carousel-item {
+  max-height: 100rem;
+  background-color: paleturquoise;
+}
+
+/* Footer ---------------------- */
+
+.page-footer {
+  background-color: #064273;
 }
